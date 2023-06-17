@@ -1,6 +1,6 @@
 # React-QuizQuestions
 The React-QuizQuestions project is a repository that provides a collection of quiz questions for use in React applications.
-https://648ddcbc2348aa1ea2ce5f65--dancing-kringle-294c9e.netlify.app/
+https://deluxe-clafoutis-5cb943.netlify.app/
 
 ##### I will keep updating this app.. 
 
