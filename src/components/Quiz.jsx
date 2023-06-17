@@ -13,7 +13,7 @@ function Quiz(props) {
       setIsLoading(true);
       try {
         const response = await fetch(
-          `https://opentdb.com/api.php?amount=${props.questions === null ? props.questions : 5}&category=18&type=multiple&difficulty=${props.difficulty === null ? "easy" : props.difficulty}`
+          `https://opentdb.com/api.php?amount=${props.questions > 0 ? props.questions : 5}&category=18&type=multiple&difficulty=${props.difficulty === null ? "easy" : props.difficulty}`
         );
         const data = await response.json();
         if (response.ok) {
