@@ -16,8 +16,8 @@ Usage
 The Quiz component is a React component that renders a quiz interface. It fetches quiz questions from an API, allows users to select answers, displays the result, and provides an option to play again.
 ## Props
 ### The Quiz component accepts the following props:
-- questions (optional): The number of questions to fetch from the API. If not provided, the default value is null.
-- difficulty (optional): The difficulty level of the quiz questions. If not provided, the default value is null.
+- questions (optional): The number of questions to fetch from the API. If not provided, the default value is "easy".
+- difficulty (optional): The difficulty level of the quiz questions. If not provided, the default value is "5".
 ### State
 The component has the following states:
 -         startQuiz: A boolean value indicating whether the quiz has started.
